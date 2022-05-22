@@ -1,0 +1,179 @@
+{
+	"title": "Документация Monopoly One",
+    "icons": {
+        "favicon": "https://s.m1.gg/logo/logo_500_gray.png",
+        "logo": "https://s.m1.gg/logo/logo_500_gray.png"
+    },
+	"vars": {
+		"aside": {
+			"warning": "ВНИМАНИЕ"
+		},
+		"parameters": {
+			"required": "обязательный",
+			"deprecated": "устаревший",
+			"experimental": "экспериментальный"
+		}
+	},
+	"navigation": [
+		{
+			"content": [
+				{
+					"title": "Введение",
+					"url": "/"
+				},
+				{
+					"title": "История изменений",
+					"url": "/updates"
+				},
+				{
+					"title": "Типы данных",
+					"url": "/data-types"
+				},
+				{
+					"title": "Боты",
+					"url": "/bots"
+				}
+			]
+		},
+		{
+			"title": "HTTP API",
+			"content": [
+				{
+					"title": "Введение",
+					"url": "/api/http/intro"
+				},
+				{
+					"title": "Авторизация",
+					"content": [
+						{
+							"title": "auth.signin",
+							"url": "/api/http/auth.signin"
+						},
+						{
+							"title": "auth.totpVerify",
+							"url": "/api/http/auth.totpVerify"
+						},
+						{
+							"title": "auth.refresh",
+							"url": "/api/http/auth.refresh"
+						},
+						{
+							"title": "bots.getToken",
+							"url": "/api/http/bots.getToken"
+						}
+					]
+				},
+				{
+					"title": "Пользователи",
+					"content": [
+						{
+							"title": "users.get",
+							"url": "/api/http/users.get"
+						}
+					]
+				},
+				{
+					"title": "Друзья",
+					"content": [
+						{
+							"title": "friends.get",
+							"url": "/api/http/friends.get"
+						},
+						{
+							"title": "friends.getRequests",
+							"url": "/api/http/friends.getRequests"
+						},
+						{
+							"title": "friends.add",
+							"url": "/api/http/friends.add"
+						},
+						{
+							"title": "friends.delete",
+							"url": "/api/http/friends.delete"
+						}
+					]
+				},
+				{
+					"title": "Общий чат",
+					"content": [
+						{
+							"title": "gchat.get",
+							"url": "/api/http/gchat.get"
+						},
+						{
+							"title": "gchat.send",
+							"url": "/api/http/gchat.send"
+						}
+					]
+				},
+				{
+					"title": "Инвентарь",
+					"content": [
+						{
+							"title": "inventory.get",
+							"url": "/api/http/inventory.get"
+						},
+						{
+							"title": "inventory.craft",
+							"url": "/api/http/inventory.craft"
+						}
+					]
+				},
+				{
+					"title": "Обмены",
+					"--content": [
+						{
+							"title": "trades.getIncome",
+							"url": "/api/http/trades.getIncome"
+						},
+						{
+							"title": "trades.getById",
+							"url": "/api/http/trades.getById"
+						},
+						{
+							"title": "trades.getOutbound",
+							"url": "/api/http/trades.getOutbound"
+						},
+						{
+							"title": "trades.history",
+							"url": "/api/http/trades.history"
+						},
+						{
+							"title": "trades.historyWith",
+							"url": "/api/http/trades.historyWith"
+						},
+						{
+							"title": "trades.create",
+							"url": "/api/http/trades.create"
+						},
+						{
+							"title": "trades.accept",
+							"url": "/api/http/trades.accept"
+						},
+						{
+							"title": "trades.decline",
+							"url": "/api/http/trades.decline"
+						},
+						{
+							"title": "trades.cancel",
+							"url": "/api/http/trades.cancel"
+						}
+					]
+				},
+				{
+					"title": "Данные",
+					"content": [
+						{
+							"title": "data.getItemProtos",
+							"url": "/api/http/data.getItemProtos"
+						},
+						{
+							"title": "data.searchItemProtos",
+							"url": "/api/http/data.searchItemProtos"
+						}
+					]
+				}
+			]
+		}
+	]
+}
