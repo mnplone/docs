@@ -172,6 +172,28 @@
 							"url": "/api/http/data.searchItemProtos"
 						}
 					]
+				},
+				{
+					"title": "Прочее",
+					"content": [
+						{
+							"title": "oauth.exchangeCode",
+							"url": "/api/http/oauth.exchangeCode"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "OAuth",
+			"content": [
+				{
+					"title": "Введение",
+					"url": "/oauth/intro"
+				},
+				{
+					"title": "Права доступа",
+					"url": "/oauth/scopes"
 				}
 			]
 		}
